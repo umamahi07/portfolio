@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="static/images/reg.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="../images/Screenshot 2025-02-03 211926.png" height="680px" ,width="800px">
+        </div>
+        <div class="container2">
+
+            <h1>-----REGISTER-----</h1>
+            <h3>Create your account</h3>
+
+
+            <form>
+                <div class="magi">
+                    <label>NAME</label>
+                    <input type="text" placeholder="Enter username" />
+                    <br>
+                    <label>LASTNAME</label>
+                    <input type="text" placeholder="Enter surname" />
+                    <br>
+                    <label>AGE</label>
+                    <input type="number" placeholder="Enter your Age" />
+                    <br>
+                    <label>EMAIL</label>
+                    <input type="email" placeholder="Enter MailID" />
+                    <br>
+                    <label>PASSWORD</label>
+                    <input type="password" placeholder="Enter Password" />
+                    <br>
+
+                    <label> NEW PASSWORD</label>
+                    <input type="password" placeholder="Re-type Password" />
+                    <br>
+
+                    <label> PHONENUMBER</label>
+                    <input type="tel" placeholder="Enter Number">
+                    <br>
+
+                    <label>DOB</label>
+                    <input type="date" id="dob" name="dob" placeholder="DD-MM-YYYY">
+                    <br>
+
+                    <div class="gender">
+                        <label>GENDER</label>
+
+                        <input type="radio" name="gender" />
+                        <label for="gender">Male</label>
+
+                        <input type="radio" name="gender" />
+                        <label for="gender">female</label>
+
+                        <input type="radio" name="gender" />
+                        <label for="gender">others</label>
+                    </div>
+
+
+                    <br>
+                    <div class="con">
+                        <label>COUNTRY</label>
+                        <select>
+                            <option>select your country</option>
+                            <option>India</option>
+                            <option>China</option>
+                            <option>UK</option>
+                            <option>Afghanistan</option>
+                            <option>southAfrica</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+
+                <div class="dee">
+                    <input type="checkbox" id="checkbox1" >
+                    <label for="checkbox1">I agree with terms and conditions</label>
+                </div>
+            </form>
+            <button>Register</button>
+            <br>
+
+            <a href="login.html">Already have an account login here</a>
+        </div>
+    </div>
+</body>
+
+</html>

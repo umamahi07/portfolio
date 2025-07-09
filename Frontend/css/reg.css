@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    height: 650px;
+    width: 550px;
+    text-align: center;
+    box-shadow: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    background-image:url("https://th.bing.com/th/id/OIP.GlYKS8UlORiVWET953FkJwHaE3?rs=1&pid=ImgDetMain");
+   /* background-color: rgba(0, 0, 0, 0.274);*/
+}
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.magi {
+    margin: 5px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border: solid;
+}
+
+.gender {
+    margin: 5px;
+    display: inline-flex;
+
+}
+
+.con {
+    cursor: pointer;
+    height: 10px;
+}
+
+select {
+    padding: 5px;
+    margin: 5px;
+}
+
+.dee {
+    margin: 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 60%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
